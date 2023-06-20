@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col items-center   mt-auto mb-0 bg-gray-100 py-8 pb-0">
+        <footer className="flex flex-col items-center   mt-auto mb-0 bg-gray-100 py-8 pb-0 md: w-full lg:w-full">
             <div className="social flex justify-center space-x-4 mb-4">
                 <a href="#" target="_blank" rel="noopener noreferrer" className="text-black text-lg">
                     <FontAwesomeIcon icon={faFacebook} />
